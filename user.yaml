@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: user
-        image: 10.55.19.69/docker.io/weaveworksdemos/user:0.4.7
+        image: registry.ntnxlab.local/shop/weaveworksdemos/user:0.4.7
         resources:
           limits:
             cpu: 300m
